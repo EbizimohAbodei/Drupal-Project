@@ -1,0 +1,11 @@
+name: Personal Module
+type: module
+description: A short explanation of an individual
+package: custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9
+services:
+  gurei.company_manager:
+    class: Drupal\gurei\Service\CompanyService
+    arguments:
+      - "@string_translation"

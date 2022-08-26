@@ -1,0 +1,7 @@
+personal_module.personal:
+  path: "/personal/page"
+  defaults:
+    _controller: '\Drupal\personal_module\Controller\PersonalController::personal'
+    _title: "Personal Module"
+  requirements:
+    _permission: "access content"

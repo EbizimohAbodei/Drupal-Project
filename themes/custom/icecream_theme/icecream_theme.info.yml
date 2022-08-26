@@ -1,0 +1,17 @@
+name: Icecream theme
+type: theme
+description: custom theme created by Ebizimoh
+base theme: stable
+core_version_requirement: ^9
+# Semantic version
+version: 1.0.0
+
+libraries:
+  - icecream_theme/global
+
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar: sidebar
+  footer: footer
